@@ -1,2 +1,5 @@
 [galaxy]
+galaxy01 ansible_host=10.41.9.97 ansible_port=22
+galaxy02 ansible_host=10.41.9.29 ansible_port=22
+galaxy03 ansible_host=10.41.9.74 ansible_port=22
 galaxy06 ansible_host=10.41.9.63 ansible_port=22

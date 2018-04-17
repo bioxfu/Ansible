@@ -31,6 +31,7 @@ ansible testserver -b -m apt -a "name=nginx update_cache=yes"
 ansible testserver -b -m service -a "name=nginx state=restarted"
 
 
+source ansible/bin/activate
 ansible galaxy -m ping
 ansible-playbook -K install_docker.yaml
 
