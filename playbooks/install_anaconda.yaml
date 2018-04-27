@@ -1,0 +1,5 @@
+- name: Install Anaconda with default config
+  hosts: galaxy
+  become: True
+  roles:
+    - andrewrothstein.anaconda

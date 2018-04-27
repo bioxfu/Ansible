@@ -1,0 +1,6 @@
+- name: Creates a conda environment from an environment.yml
+  hosts: galaxy
+  roles:
+    - role: andrewrothstein.conda-env
+      conda_env_name: gmatic
+      conda_env_environment: environment.yml
